@@ -4,15 +4,18 @@ import Navbar from './componentes/navbar/Navbar';
 import Catalogo from './componentes/catalogo/Catalogo';
 import Inicio from './componentes/inicio/Inicio';
 import NotFound from './componentes/404/NotFound';
+import Three from './componentes/three/Three'
 
 function App() {
   return (
-    
+    <div className='testtttttttttt'>
+
     <BrowserRouter >
       <Navbar />
     <Routes > 
       <Route path='/' element={<Inicio />} />
       <Route path='/catalogo' element={<Catalogo />} />
+      <Route path='/three' element={<Three />} />
       <Route path='/game/:id' element={<Catalogo />} />
 
 
@@ -22,6 +25,7 @@ function App() {
 
     </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 

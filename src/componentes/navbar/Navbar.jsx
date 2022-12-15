@@ -6,6 +6,7 @@ export default function Navbar() {
     <div className='navbar'>
         <Link to='/'>Inicio</Link>
         <Link to='/catalogo'>Catalogo</Link>
+        <Link to='/three'>THREEE</Link>
     </div>
   )
 }

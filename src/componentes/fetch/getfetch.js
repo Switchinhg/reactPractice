@@ -9,7 +9,7 @@ const prods = [
 export const getFetch = (id)=>{
     return new Promise ((resolve)=>{
         setTimeout(() => {
-            id?resolve(prods.filter(e=>e.id==id))
+            id?resolve(prods.filter(e=>e.id===id))
             :
             resolve(prods)
         }, 1000);
