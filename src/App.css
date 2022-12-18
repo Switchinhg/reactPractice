@@ -33,12 +33,18 @@
   justify-content: center;
 
   gap: 1rem;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+  background-color: gray;
+
+  margin-bottom: 2rem;
+
 }
+b
 .box p{
-  border-bottom: solid 1px black;
-  color: black;
+  color: white;
 }
+
 .box:hover{
   animation: hover 0.2s 1 alternate ease-out forwards;
   
@@ -58,10 +64,11 @@
   }
   100%{
       transform:translateY(-15px);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 5px 15px gray;
   }
 }
 
 .testtttttttttt{
   background: linear-gradient(45deg,#171717,#252525)
 }
+
